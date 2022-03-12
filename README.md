@@ -6,7 +6,7 @@
   APK Studio
 </h1>
 
-Open-source, cross platform [Qt](https://www.qt.io/) based IDE for reverse-engineering [Android](https://android.com/) application packages. It features a friendly IDE-like layout including code editor with syntax highlighting support for \*.smali code files.
+基于开源、跨平台[Qt](https://www.Qt.io/)的 IDE，用于逆向工程[Android](https://Android.com/)应用程序包。它具有一个友好的类 ide 的布局，包括代码编辑器和语法突显支持 \*.Smali 代码文件。
 
 [![Screenshot](https://raw.githubusercontent.com/vaibhavpandeyvpz/apkstudio/master/resources/screenshot.png)](https://raw.githubusercontent.com/vaibhavpandeyvpz/apkstudio/master/resources/screenshot.png)
 
@@ -32,22 +32,22 @@ Open-source, cross platform [Qt](https://www.qt.io/) based IDE for reverse-engin
   </a>
 </p>
 
-If you are just willing to quickly decompile an [Android](https://android.com/) app, you can make use of [DeAPK - Online APK Decompiler](https://deapk.vaibhavpandey.com/) which lets you decompile an Android app using [apktool](https://github.com/ibotpeaches/apktool) and [jadx](https://github.com/skylot/jadx).
+如果你只是想快速反编译一个 Android 应用程序，你可以使用[DeAPK-Online APK 反编译器](https://DeAPK.vaibhavpandey.com/)，它可以让你使用[apktool](https://github.com/ibotpeaches/apktool)和[jadx](https://github.com/skylot/jadx)反编译一个 Android 应用程序。
 
-### Features
-- Cross platform, run on **Linux**, **Mac OS X** & **Windows**
-- Decompile/recompile/sign & install APKs
-- Built-in code editor (\*.java; \*.smali; \*.xml; \*.yml) w/ syntax highlighting
-- Built-in viewer for image (\*.gif; \*.jpg; \*.jpeg; \*.png) files
-- Built-in hex editor for binary files
+### 功能特色
+- 跨平台， 运行在 **Linux**, **Mac OS X** & **Windows**
+- 反编译/重新编译/签名 & 安装 APKs
+- 内置代码编辑器 (\*.java; \*.smali; \*.xml; \*.yml) w/ 支持代码高亮
+- 用于图像 (\*.gif; \*.jpg; \*.jpeg; \*.png) 文件浏览器
+- 内置的十六进制编辑二进制文件
 
-### Downloads
-Please head over to [Releases](https://github.com/vaibhavpandeyvpz/apkstudio/releases) page for downloading. **Important:** Make sure to have `JAVA_HOME` environment variable pointing to a valid java installation for *jadx* to be able to run.
+### 下载
+请前往 [下载页](https://github.com/vaibhavpandeyvpz/apkstudio/Releases) 下载。重要提示: 确保 `JAVA home` 环境变量指向一个有效的 jdk环境，以便 jadx 能够运行。
 
-### Building
-Information on building from source is provided in the [Wiki](https://github.com/vaibhavpandeyvpz/apkstudio/wiki).
+### 构建
+来源于构建的信息可以在[Wiki](https://github.com/vaibhavpandeyvpz/apkstudio/Wiki)中找到。
 
-### Credits
+### 致谢
 - [iBotPeaches](https://github.com/iBotPeaches) for [apktool](https://ibotpeaches.github.io/Apktool)
 - [patrickfav](https://github.com/patrickfav) for [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)
 - [skylot](https://github.com/skylot) for [jadx](https://github.com/skylot/jadx)
@@ -58,9 +58,9 @@ Information on building from source is provided in the [Wiki](https://github.com
 - [Icons8](https://icons8.com/) for various icons
 - [Surendrajat](https://github.com/Surendrajat) for maintaining project while I couldn't
 
-**Note**: If you encounter any problems, make sure to check **Console** output at the bottom of the IDE to get the output of command which was actually executed by program. Report any issues related to APK Studio [here](https://github.com/vaibhavpandeyvpz/apkstudio/issues) on Github. Please note, an issue with [apktool](http://ibotpeaches.github.io/Apktool/) is not an issue with **APK Studio**. Please verify the context of issue before opening a ticket.
+**注意**: 如果遇到任何问题，请确保选中IDE底部的 **控制台** 输出，以获取程序实际执行的命令的输出。报告与APK Studio有关的任何问题请在Github上[此处](https://github.com/vaibhavpandeyvpz/apkstudio/issues)。请注意，[apktool]有一个问题(http://ibotpeaches.github.io/Apktool/)不是**APK Studio**的问题。请在开票前核实问题的背景。
 
 ---
 
-##### Disclaimer
-Same as [apktool](http://ibotpeaches.github.io/Apktool/), **APK Studio** is neither intended for piracy nor other non-legal uses. It could be used for localizing, adding some features or support for custom platforms, analyzing applications &amp; much more.
+##### 免责声明
+与[apktool](http://ibotpeaches.github.io/apktool/)相同，如果您对于 **APK Studio** 的使用，既不打算用于盗版，也不打算用于其他非法用途，那么可以用于本地化，添加一些功能或支持自定义平台，分析应用程序等等。
